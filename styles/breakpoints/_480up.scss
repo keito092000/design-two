@@ -1,0 +1,888 @@
+.main{
+
+  .header-pc{
+  display: none;
+  }
+  .header-pe{
+  position: relative;
+  height:80px;
+  background-color:rgba(238,238,238,0.45);
+
+  & img{
+    position: absolute;
+    top:38px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:130px;
+  }
+  }
+
+  .own-pc{
+  display: none;
+  }
+  .own-pe{
+  display: block;
+  background-image:url("http://www.kouzashibuya-dental.com/lp/common/img/ph_equipment03.jpg");
+  background-size: cover;
+  height:420px;
+ 
+  .list{
+   position: absolute;
+   top:245px;
+   left:50%;
+   transform: translate(-50%,-50%);
+ 
+   padding: 0.5em 1em;
+   margin: 2em 0;
+   font-weight: bold;
+   background-color:rgba(255,255,255,0.5);
+   
+   width:330px;
+   height:245px;
+   font-family: 'Noto Serif JP', serif;
+ 
+   & h1{
+     font-size: 19px;
+     text-align: center;
+     border-bottom: 1px solid orange;
+   }
+   & p{
+     font-size:14px;
+     padding-top:5px;
+   }
+  }
+  }
+
+  .two-pc{
+ display: none;
+  }
+  .two-pe{
+  position: relative;
+
+  .flex{
+   position: absolute;
+   top:310px;  
+   left:50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   flex-direction: column;
+   width:330px;
+
+   & h1{
+     width:340px;
+     font-size: 20px;
+     text-align: center;
+     font-family: 'Noto Serif JP', serif;
+     padding-bottom:10px;
+     & > span{
+       color:orange;
+     }
+   }
+   & p{
+     font-size: 13px;
+   }
+  }
+  }
+
+  .three-pc{
+  display: none;
+  }
+  .three-pe{
+  position: relative;
+  top:550px;
+  background-color:rgba(238,238,238,0.4);
+  height:1600px;
+  border-top:1px solid silver;
+
+  & h1{
+    position: absolute;
+    top:50px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color:orange;
+    width:340px;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+  }
+
+  .position{
+    position: absolute;
+    top:820px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    .flex{
+      display: flex;
+      flex-direction: column;
+      width:330px;
+
+      & .point{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Noto Serif JP', serif;
+        color:gray;
+        border-bottom:1px solid silver;
+        padding-top:20px;
+      }
+      & h2{
+        font-size: 20px;
+        font-family: 'Noto Serif JP', serif;
+      }
+      & .lang{
+        font-size: 13px;
+      }
+      
+    }
+  }
+  }
+
+  .four-pc{
+  display: none;
+  }
+  .four-pe{
+  position: relative;
+  top:500px;
+  background-color: #EEEEEE;
+  height:850px;
+
+  .main{
+    position: absolute;
+    top:410px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 3px white;
+    background-color: white;
+    width:350px;
+    height:750px;
+
+    & h1{
+      position: absolute;
+      top:60px;
+      width:300px;
+      text-align: center;
+      left:50%;
+      font-size: 20px;
+      transform: translate(-50%,-50%);
+      font-family: 'Noto Serif JP', serif;
+      color:orange;
+    }
+
+    .flex{
+      position: absolute;
+      top:450px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width:270px;
+      display: flex;
+      flex-direction: column;
+
+      & img{
+      width:400px;
+      }
+      & h2{
+        font-family: 'Noto Serif JP', serif;
+        font-size: 17px;
+        width:290px;
+        margin-top:15px;
+      }
+      & p{
+        font-size: 15px;
+      }
+    }
+  }
+  }
+
+  .five-pc{
+  display: none;
+  }
+  .five-pe{
+  display: block;
+  position: relative;
+  top:540px;
+  height:2500px;
+
+  & h1{
+   position: absolute;
+   top:50px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-size: 20px;
+   width:350px;
+   font-family: 'Noto Serif JP', serif;
+   color:orange;
+   text-align: center;
+  }
+  & p{
+   position: absolute;
+   top:180px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-size: 13px;
+   width:350px;
+  }
+
+  .main-flex{
+    position: absolute;
+    top:1230px;
+    left:50%;  
+    transform: translate(-50%,-50%);
+
+    .sub-flex{
+      display: flex;
+      flex-direction: column;
+      box-shadow:0px 0px 2px;
+      margin: 1em 0;
+      border: solid 3px white;
+      background-color: white;
+      width:355px;
+      height:300px;
+
+      & h2{
+        font-family: 'Noto Serif JP', serif;
+        text-align: center;
+        padding-top:30px;
+        font-size: 15px;
+        padding-bottom:7px;
+      }
+    }
+  }
+  
+  .flex{
+    position: absolute;
+    top:2300px;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow:0px 0px 2px;
+    margin: 1em 0;
+    border: solid 3px rgba(255,255,240,0.3);
+    background-color: white;
+    width:360px;
+    height:250px;
+
+    & h1{
+     text-align: center;
+     padding-top:20px;
+    }
+    & img{
+      width:350px;
+      position: absolute;
+      top:170px;
+      left:50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+  }
+
+  .six-pc{
+  display: none;
+  }
+  .six-pe{
+ position: relative;
+ top:500px;
+
+ & h1{
+  position: absolute;
+  top:50px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 23px;
+  width:260px;
+  font-family: 'Noto Serif JP', serif;
+  color:orange;
+ }
+ & .list{
+  position: absolute;
+  top:120px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+  width:300px;
+ }
+  .main-flex{
+   position: absolute;
+   top:1800px;
+   left:50%;
+   transform: translate(-50%,-50%);
+
+    .main{
+     display: flex;
+     flex-direction: column;
+
+     .own-flex{
+      display: flex;
+      flex-direction: row;
+
+      .step{
+       padding:5px 10px;
+       margin-right:20px;
+       font-weight: bold;
+       border: solid 3px orange;
+       height:40px;
+       color:white;
+       background-color: orange;
+       width:130px;
+       text-align: center; 
+
+       & p{
+         font-size: 12px;
+       }
+      }
+      & h3{
+       font-family: 'Noto Serif JP', serif;
+       padding-top:5px;
+       font-size: 10px;
+      }
+     }
+     .two-flex{
+       display: flex;
+       flex-direction: column;
+
+       & img{
+         padding-top:20px;
+         width:300px;
+       }
+       & p{
+         padding-top:30px;
+         width:300px;
+         font-size: 15px;
+       }
+     }
+
+    }
+  } 
+  }  
+
+  .seven-pc{
+  display: none;
+  }
+  .seven-pe{
+  position: relative;
+  top:3900px;
+  background-color:rgba(238,238,238,0.4);
+  height:1500px;
+
+  & h1{
+   position: absolute;
+   top:70px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-size: 20px;
+   font-family: 'Noto Serif JP', serif;
+  }
+  & img{
+    position: absolute;
+    top:240px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:300px;
+  }
+
+  .sub-flex{
+   position: absolute;
+   top:750px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   width:300px;
+    & h2{
+      font-family: 'Noto Serif JP', serif;
+ 
+    }
+    & h3{
+      font-family: 'Noto Serif JP', serif;
+    }
+  }
+
+  .flex{
+    position: absolute;
+    top:1280px;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow:0px 0px 2px;
+    margin: 1em 0;
+    border: solid 3px rgba(255,255,240,0.3);
+    background-color: white;
+    width:360px;
+    height:220px;
+
+    & h2{
+     text-align: center;
+     padding-top:50px;
+     font-size: 16px;
+     font-family: 'Noto Serif JP', serif;
+    }
+    & img{
+      width:350px;
+      position: absolute;
+      top:160px;
+      left:50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+  }
+
+  .eight-pc{
+  display: none;
+  }
+  .eight-pe{
+  position: relative;
+  top:3830px;
+  background-color:rgba(238,238,238,0.4);
+  height:1280px;
+  
+  & h1{
+   position: absolute;
+   top:100px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-family: 'Noto Serif JP', serif;
+   font-size: 20px;
+  }
+
+  .infor{
+    position: absolute;
+    top:600px;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    width:360px;
+    border:1px solid #ccc;
+
+    & tr{
+      border:1px solid #ccc;
+      display: block; 
+    } 
+     & th{
+      text-align: left;
+      border-bottom:1px solid #CCC;   
+      border-left:1px solid #CCC;   
+      border-right:1px solid #CCC;   
+      height:50px;
+      display: block; 
+      color:#1E90FF;
+      background:#EEEEEE;
+      padding-top:14px;
+      padding-left:14px;
+    }
+     & td{
+      text-align: left;
+      border:1px solid #CCC;   
+      display: block; 
+      height:auto;
+      padding-top:15px;
+      padding-bottom:15px;
+      padding-left:15px;
+      font-size: 13px;
+
+      & span{
+        color:orange;
+      }
+     }
+  
+  
+  }
+
+  & h3{
+   position: absolute;
+   top:1050px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-family: 'Noto Serif JP', serif;
+   color:#1E90FF;
+  }
+
+  .day{
+   position: absolute;
+   top:1160px;
+   left:50%;
+   transform: translate(-50%,-50%);
+
+    width:340px;
+    height:120px;
+    border:1px solid #EEEEEE;
+    writing-mode: vertical-lr;
+
+   & tr{
+     border:1px solid #EEEEEE;
+   }
+   & th{
+     border:1px solid #EEEEEE;
+     text-align: center;
+     background:#F8F8FF;
+     color:#1E90FF;
+   }
+   & td{
+     border:1px solid #EEEEEE;
+     text-align: center;
+   }
+
+  }
+
+ 
+ 
+  }
+
+  .nine-pc{
+  display: none;
+  }
+  .nine-pe{
+  display:block;
+  position: relative;
+  top:3900px;
+  background-color:rgba(238,238,238,0.4);
+  border-top:silver 1px solid;
+  height:250px;
+
+  & .clinic{
+   position: absolute;
+   top:50px;
+   left:50%;
+   transform: translate(-50%,-50%);
+   width:170px;
+  }
+  & .fon{
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:170px;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .main-flex{
+    position: absolute;
+    top:155px;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:300px;
+
+    .sub-flex{
+      display:flex;
+      flex-direction: column;
+
+      & a{
+        color:black;
+        cursor: pointer;
+        font-size:10px;
+
+        &:hover{
+          color:#1E90FF;
+         }
+      }
+    }
+  }
+
+  .img{
+   position: absolute;
+   top:80px; 
+   left:50%;
+   transform: translate(-50%,-50%);
+   width:150px;
+  }
+
+
+  }
+ 
+  .ten-pc{
+  display: none;
+  }
+  .ten-pe{
+  position: relative;
+  top:3900px;
+  height:130px;
+  background-color:#339999;
+  height:70px;
+
+  & p{
+   position: absolute;
+   top:35px;
+   left:50%;
+   transform: translate(-50%,-50%);
+
+   text-align: center;
+   font-size: 10px;
+   color:white;
+  }
+  }
+
+}
+
+.home{
+  .header-pc{
+    display: none;
+  }
+  .header-pe{
+    display: block;
+    position: relative;
+    height:230px;
+
+    & .own{
+     position: absolute;
+     top:35px;
+     left:15%;
+     transform: translate(-50%,-50%);
+     width:100px;
+    }
+
+    & .slide{
+     position: absolute;
+     top:140px;
+     left:50%;   
+     transform: translate(-50%,-50%);
+     width:350px;
+     height:140px;
+    }
+  }
+
+  .own-pc{
+    display: none;
+  }
+  .own-pe{
+    position: relative;
+    top:20px;
+
+    & .point{
+     position: absolute;
+     top:50px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width:370px;
+    }
+
+    .main-flex{
+     position: absolute;
+     top:365px;
+     left:50%;
+     transform: translate(-50%,-50%);
+
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     width:380px;
+
+      .sub-flex{
+       display:flex;
+       flex-direction: column;
+       width:160px;
+
+       & h3{
+         text-align: center;
+       }
+      }
+    }
+
+    & .trouble{
+      position: absolute;
+      top:700px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width:340px;
+    }
+    & .list{
+      position: absolute;
+      top:1000px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width:350px;
+    }
+    & .menu{
+      position: absolute;
+      top:1300px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width:360px;
+    }
+
+    .flex{
+      position: absolute;
+      top:1700px;  
+      left:50%;
+      transform: translate(-50%,-50%);
+
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width:360px;
+      & img{
+        width:140px;
+      }
+    }
+
+    
+  }
+  .sub-flex:nth-child(even){
+   padding-top:100px;
+  }
+
+  .two-pc{
+    display:none;
+  }
+  .two-pe{
+    position: relative;
+    top:2100px;
+    background-color: #EEEEEE;
+    height:520px;
+
+    & h1{
+     position: absolute;
+     top:50px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     font-family: 'Noto Serif JP', serif;
+    }
+
+     table{
+      position: absolute;
+      top:290px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width:350px;
+      background-color: white;
+
+      tr{
+        border:1px solid #EEEEEE;
+        & td{
+          border:1px solid #EEEEEE;
+          padding:20px 10px;
+          font-size: 13px;
+
+          & > span{
+            color:red;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  .three-pc{
+    display: none;
+  }
+  .three-pe{
+    position: relative;
+    top:2100px;
+
+    & h1{
+      position: absolute;
+      top:50px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-family: 'Noto Serif JP', serif;
+    }
+    & p{
+      position: absolute;
+      top:100px;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: bold;
+    }
+
+    table{
+     position: absolute;
+     top:400px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width:300px;
+ 
+      tr{
+       & td{
+         font-size:10px;
+         padding:15px 0;
+       }
+       & th{
+         font-size:12px;
+         width:120px;
+       }
+  
+      }
+    }
+  }
+
+  .four-pc{
+    display: none;
+  }
+  .four-pe{
+    position: relative;
+    top:2800px;
+    background-color: #EEEEEE;
+    height:110px;
+    border-top:1px solid silver;
+
+    & .title{
+     position: absolute;
+     top:30px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width:150px;
+    }
+    & .fon{
+     position: absolute;
+     top:70px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width:150px;
+    }
+  }
+
+  .five-pc{
+    display: none;
+  }
+  .five-pe{
+    position: relative;
+    top:2800px;
+    height:130px;
+    background-color:#339999;
+    height:70px;
+  
+    & p{
+     position: absolute;
+     top:35px;
+     left:50%;
+     transform: translate(-50%,-50%);
+  
+     text-align: center;
+     font-size: 10px;
+     color:white;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+// position: absolute;
+// top:50%;
+// left:50%;
+// transform: translate(-50%,-50%);
+
+// font-family: 'Noto Serif JP', serif;
